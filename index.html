@@ -27,7 +27,7 @@
 
 <div class="container" style="position:relative;">
   <header>
-    <a href="#">
+    <a href="index.html">
       <div class="logo_wrap">
         <img src="img/logo.png" class="logo" alt="logo" />
       </div>
@@ -36,16 +36,21 @@
     <nav class="main_nav">
       <ul class="slimmenu nav">
         <li class="current"><a href="index.html">Home</a></li>
-        <li><a href="#">About the campaign</a></li>
-        <li><a href="#">Support Us</a></li>
-        <li><a href="#">Media and Press</a></li>
+        <li><a href="about-campaign.html">About the campaign</a></li>
+        <li><a href="support-us.html">Support Us</a></li>
+        <li><a href="press-releases.html">Media and Press</a></li>
       </ul>
     </nav>
 
    <div class="container-1">
       <span class="icon"><span class="glyphicon glyphicon-search"></span></span>
       <input type="search" id="search" placeholder="Search..." />
-  </div>
+  </div><!--end container-1-->
+
+  <div class="container-1 help">
+      <div class="accessibility">Accessibility help <span>A</span><span>A</span><span>A</span></div>
+      <!--<div class="accessibility">Hight Contrast <span>click here</span></div>-->
+  </div><!--end container-1-->
 
   </header>
   </div><!--end container-->
@@ -63,20 +68,12 @@
       <li class="step1 seq-in">
         <div data-seq class="slide-bg-1 slide feature">
           <div class="container">
-          <div class="row">
-            <h2 data-seq class="title col-md-6">The <span class="green">third age</span> can be our <span class="green">best age</span></h2>
-          </div><!--end row-->
-          <div class="row">
-            <p class="slide-sub hidden-xs">Watch our video, below</p>
-          </div><!--end row-->  
-          <div class="row">
-            <div class="col-sm-4 hidden-xs">
-               <div class="embed-container"><iframe src="https://player.vimeo.com/video/123310615?color=c9ff23&title=0&byline=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div> 
-            </div><!--end col-sm-3-->   
-          </div><!--end row-->
-           <div class="row">
-            <p class="slide-sub"><a href="#">Join the learning network<span class="glyphicon glyphicon-menu-right"></span></a></p>
-          </div><!--end row--> 
+            <div class="row">
+              <h2 data-seq class="title"><span class="green">Campaign</span></h2>
+            </div><!--end row-->  
+            <div class="row">
+              <p class="slide-sub">For change in your community<br> and on a national scale</p>
+            </div><!--end row-->
           </div><!--end container-->  
         </div><!--end slide-bg-->
       </li>
@@ -84,18 +81,12 @@
       <li class="step2">
          <div data-seq class="slide-bg-2 slide feature">
            <div class="container">
-           <div class="row">
-              <span class="padded-multiline">
-                <h3 data-seq class="title"><span class="padded">We believe that nobody who wants company should be without it.<br>
-                  And the <span class="green">third age</span> can be the <span class="green">best age.</span><br> After all, we have the right to <span class="green">make the most</span> of our lives.<br>
-                  Please join us and help make it happen.<br> Become a supporter of the <span class="green">Campaign to End Loneliness.</span></span>
-                </h3>  
-              </span><!--end padded multiline-->
-          </div><!--end row--> 
-          <div class="row">
-               <p class="slide-sub"><a href="#">Download our guidance<span class="glyphicon glyphicon-menu-right"></span></a></p>
-              </div><!--end row--> 
-
+            <div class="row">
+              <h2 data-seq class="title"><span class="green">Learn</span></h2>
+            </div><!--end row-->  
+            <div class="row">
+              <p class="slide-sub">From the very latest research <br>and examples of best practice</p>
+            </div><!--end row-->
           </div><!--end container-->
          </div><!--end slide-bg--> 
       </li>
@@ -103,18 +94,12 @@
       <li class="step3">
          <div data-seq class="slide-bg-3 slide feature">
            <div class="container">
-             <div class="row">
-              <span class="padded-multiline">
-                  <h3 data-seq class="title"><span class="padded">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et <span class="green">dolore magna aliqua.</span><br> Ut enim ad minim veniam, quis nostrud<br> exercitation ullamco <span class="green">laboris</span> nisi ut aliquip ex ea commodo consequat</span></h3>  
-              </span><!--end padded multiline-->
-          </div><!--end row--> 
-
-          <div class="row">
-               <p class="slide-sub"><a href="#">Become a campaign ambassador<span class="glyphicon glyphicon-menu-right"></span></a></p>
-              </div><!--end row--> 
-              <div class="row">
-               <p class="slide-sub"><a href="#">Read our latest research<span class="glyphicon glyphicon-menu-right"></span></a></p>
-              </div><!--end row-->
+            <div class="row">
+              <h2 data-seq class="title"><span class="green">Connect</span></h2>
+            </div><!--end row-->  
+            <div class="row">
+              <p class="slide-sub">With like minded people to share ideas<br> and work through challenges together</p>
+            </div><!--end row-->
           </div><!--end container-->
          </div><!--end slide-bg--> 
       </li>
@@ -133,10 +118,15 @@
 
       <div class="col-md-6">
         <div class="box box1">
-              <div class="box_info">
-                <a href="feeling-lonely.html">
+              
+              <div class="top">
+                <a href="feeling-lonely.html" class="big-link">
                     <h3>Feeling Lonely?<span class="glyphicon glyphicon-menu-right"></span></h3>
                 </a> 
+              </div><!--end top-->
+
+              <div class="bottom">
+                 
                  <div class="inner-links">
                     <p>Feeling lonely is a normal human emotion and is simply a sign of wanting contact with people. It can often happen because of external circumstances, such as loss of a loved one.</p>
                     <ul class="box-links">
@@ -145,17 +135,26 @@
                       <li><a href="#">The Silver Helpline<span class="glyphicon glyphicon-menu-right"></span></a></li>
                     </ul>
                   </div><!--end  inner-links-->  
-              </div><!--end box_info-->
-              <div class="box-bar one"></div>
-              <img src="img/think-1.png" class="search-icon" />
+                  <img src="img/heart-1.png" class="search-icon" />
+                  <div style="display:block;clear:both"></div>
+
+              </div><!--end bottom-->
+
+             
         </div><!--end box-->
       </div><!--end col-6-->
 
 
       <div class="col-md-6">
        <div class="box box2">
-             <div class="box_info">
-              <a href="feeling-lonely.html"><h3>Looking for information on loneliness?<span class="glyphicon glyphicon-menu-right"></span></h3></a>
+             <div class="top">
+              <a href="looking-for-information.html" class="big-link">
+                <h3>Looking for information on loneliness?<span class="glyphicon glyphicon-menu-right"></span></h3>
+              </a>
+              </div><!--end top-->
+
+              <div class="bottom">
+
                <div class="inner-links">
                   <p>Loneliness is a bigger problem than simply an emotional experience.  Research shows that loneliness and social isolation are harmful to our health.</p>
                    <ul class="box-links">
@@ -163,10 +162,11 @@
                   <li><a href="#">About the Campaign<span class="glyphicon glyphicon-menu-right"></span></a></li>
                   <li><a href="#">Threat to Health<span class="glyphicon glyphicon-menu-right"></span></a></li>
                 </ul>
-               </div><!--end  inner-links-->  
-          </div><!--end box_info-->  
-        <div class="box-bar four"></div>
-        <img src="img/laptop-2.png" class="search-icon" />
+               </div><!--end  inner-links-->   
+               <img src="img/cloud-1.png" class="search-icon" />
+               <div style="display:block;clear:both"></div>
+              </div><!--end bottom-->
+
         </div><!--end box-->
       </div><!--end col-6-->
     </div><!--end row-->
@@ -174,37 +174,49 @@
    <div class="row">
       <div class="col-md-6">
       <div class="box box3">
-          <div class="box_info">
-           <a href="feeling-lonely.html"><h3>Get Involved<span class="glyphicon glyphicon-menu-right"></span></h3></a>
+          <div class="top">
+            <a href="get-involved.html" class="big-link">
+             <h3>Get Involved<span class="glyphicon glyphicon-menu-right"></span></h3>
+            </a>
+           </div><!--end top-->
+
+            <div class="bottom">
+
              <div class="inner-links">
-              <p>Whether you want to campaign for change in your local community, learn about the latest research and best practice or connect with like-minded people to share ideas, we have plenty of ways you can get involved</p>
+              <p>Whether you want to campaign for change in your local community, learn about the latest research or share ideas, we have plenty of ways you can get involved</p>
               <ul class="box-links">
               <li><a href="#">Take Action in your community<span class="glyphicon glyphicon-menu-right"></span></a></li>
               <li><a href="#">Join our Learning Network<span class="glyphicon glyphicon-menu-right"></span></a></li>
               <li><a href="#">Become a Supporter<span class="glyphicon glyphicon-menu-right"></span></a></li>
             </ul>
             </div><!--end  inner-links--> 
-          </div><!--end box_info--> 
-        <div class="box-bar two"></div>
-        <img src="img/bus-1.png" class="search-icon" />
+            <img src="img/support-1.png" class="search-icon" />
+            <div style="display:block;clear:both"></div>
+            </div><!--end bottom-->
         </div><!--end box-->
       </div><!--end col-6-->
+
       <div class="col-md-6">
        <div class="box box5">
-          <div class="box_info">
-           <a href="feeling-lonely.html"><h3>For local government and healthcare<span class="glyphicon glyphicon-menu-right"></span></h3></a>
+          <div class="top">
+           <a href="local-gov.html" class="big-link">
+            <h3>For local government and healthcare<span class="glyphicon glyphicon-menu-right"></span></h3>
+            </a>
+          </div><!--end top-->
+
+           <div class="bottom">
+
               <div class="inner-links">
-             <p>Loneliness should be recognised as a public health issue.  However, as a deeply personal 
-             experience, addressing loneliness can be complex.  We have produced a range of resources to support you in ensuing that loneliness is addressed coherently in your community.</p>
+             <p>We have produced a range of resources to support you in ensuing that loneliness is addressed coherently in your community.</p>
             <ul class="box-links">
               <li><a href="#">Guidance for local authorities and commissioners<span class="glyphicon glyphicon-menu-right"></span></a></li>
               <li><a href="#">Campaign publications<span class="glyphicon glyphicon-menu-right"></span></a></li>
               <li><a href="#">Policy and Consultation Documents<span class="glyphicon glyphicon-menu-right"></span></a></li>
             </ul>
              </div><!--end  inner-links--> 
-           </div><!--end box_info-->  
-        <div class="box-bar three"></div>
-        <img src="img/search-3.png" class="search-icon" />
+            <img src="img/search-1.png" class="search-icon" />
+            <div style="display:block;clear:both"></div>
+            </div><!--end bottom-->
         </div><!--end box-->
       </div><!--end col-6-->
     </div><!--end row-->
@@ -212,8 +224,14 @@
     <div class="row">
       <div class="col-md-6">
       <div class="box box4">
-          <div class="box_info">
-            <a href="feeling-lonely.html"><h3>Latest from the campaign<span class="glyphicon glyphicon-menu-right"></span></h3></a>
+          <div class="top">
+            <a href="latest.html" class="big-link">
+              <h3>Latest from the campaign<span class="glyphicon glyphicon-menu-right"></span></h3>
+            </a>
+          </div><!--end top--> 
+
+          <div class="bottom">
+
               <div class="inner-links">
                 <p>Here you will find information about our events, our latest press releases and blogs as well as a wealth of other information.</p>  
                 <ul class="box-links">
@@ -222,23 +240,31 @@
                 <li><a href="#">Events<span class="glyphicon glyphicon-menu-right"></span></a></li>
                 </ul>
                </div><!--end  inner-links--> 
-            </div><!--end box_info--> 
-        <div class="box-bar five"></div>
-        <img src="img/laptop-1.png" class="search-icon" />
+              <img src="img/mic-1.png" class="search-icon" />
+              <div style="display:block;clear:both"></div>
+              </div><!--end bottom-->
         </div><!--end box-->
       </div><!--end col-6-->
+
       <div class="col-md-6">
-       <div class="box box6">
-          <div class="box_info">
-           <a href="feeling-lonely.html"><h3>Campaign film<span class="glyphicon glyphicon-menu-right"></span></h3></a>
+        <div class="box box6">
+          <div class="top">
+            <a href="feeling-lonely.html" class="big-link">
+              <h3>Our campaign film<span class="glyphicon glyphicon-menu-right"></span></h3>
+            </a>
+          </div><!--end top--> 
+
+          <div class="bottom">
              <div class="inner-links">
-                <div style="width:100%;padding-bottom:20%;background:#333"></div>
-             </div><!--end  inner-links-->  
-          </div><!--end box_info-->   
-        <div class="box-bar four"></div>
-        <img src="img/support-1.png" class="search-icon" />
+             <p>If you would like the longer version of this film to be shown at your event, please contact us</p>
+             </div><!--end  inner-links--> 
+             <img src="img/video-1.png" class="search-icon" />
+             <div style="display:block;clear:both"></div>
+          </div><!--end bottom-->
         </div><!--end box-->
       </div><!--end col-6-->
+
+     
     </div><!--end row-->
 
   </div><!--end container-->
